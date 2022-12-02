@@ -3,7 +3,6 @@
 #include<stdlib.h>
 
 void main(int argc, char **argv) {
-	//printf("Args: %d , Arg: %s \n", argc, argv[1]); 
 	char *texto;
 	strcpy(texto, argv[1]);
 	int leng = strlen(texto);
